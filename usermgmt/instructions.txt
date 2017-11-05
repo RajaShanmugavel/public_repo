@@ -1,0 +1,39 @@
+Instructions to run this project:
+
+1. Create a new MySQL database as 'rajadb'.
+	- create database rajadb;		
+
+2. Switch to the database.
+	- use database rajadb;
+
+3. Create a new table for storing string state.
+	- create table user_string(user_id varchar(50), string_state varchar(250));
+
+4. Add a primary key constraint to it.
+	- alter table user_string add constraint primary key(user_id);
+
+5. Build and Run the application using Maven
+	- mvn clean install && java -jar target\usermgmt-1.0.0.jar
+
+6. Open Chrome browser and access below URL
+	- http://localhost:8080/adduser?name=raja
+	- This redirects to Spring Security Login page.
+	- Enter credentials user / password   (all lowercase)
+	- Now it must have created a new user with a blank string state.
+
+7. Now use the 'Advanced REST Client' from Chrome browser (Or any other REST client like Postman, Fiddler, etc)
+	- Access below URL 
+		http://localhost:8080/chars
+		with content-type set as 'application/json'
+		and Json body as
+		[{"character":"a","amount":10}]
+	- Note: Override the Spring security
+
+8. Now, access other REST Urls like below to see response of string state for current user of chrome browser. 		
+   URLs:
+   - http://localhost:8080/state
+   - http://localhost:8080/chars
+   - http://localhost:8080/sum
+   - http://localhost:8080/chars/a
+
+9. Try the same as specified in step 6 using Firefox browser.
