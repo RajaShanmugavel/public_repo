@@ -36,4 +36,4 @@ Instructions to run this project:
    - http://localhost:8080/sum
    - http://localhost:8080/chars/a
 
-9. Try the same as specified in step 6 using Firefox browser.
+9. Try the same as specified in step 6 using Firefox browser with URL http://localhost:8080/adduser?name=user2
