@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.abc.raja.usermgmt.controller.UserControllerTest" time="0" tests="1" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Raja\workspace\projects\usermgmt"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Raja\workspace\projects\usermgmt"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Raja\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\Java\jdk1.8.0_131\bin;E:\apache-maven-3.3.9\bin;E:\gradle-3.4.1\bin;E:\Program Files\MongoDB\Server\3.4\bin;E:\Program Files (x86)\Vim\vim80\;E:\Program Files\nodejs\;E:\Program Files\Java\jdk1.8.0_131\db\bin;E:\Program Files (x86)\Brackets\command;E:\Program Files\Git\cmd;C:\Users\Raja\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;C:\Users\Raja\AppData\Roaming\npm;E:\Program Files (x86)\Microsoft VS Code\bin;E:\Program Files\Heroku\bin;E:\Program Files\Docker Toolbox;E:\Fiddler;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Raja"/>
+    <property name="user.timezone" value="Australia/Brisbane"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Raja"/>
+    <property name="java.class.path" value="E:\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="E:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;E:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;E:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;E:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;E:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;E:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;E:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="shouldReturn" classname="com.abc.raja.usermgmt.controller.UserControllerTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[2017-11-05 19:10:55.382  INFO 12124 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.abc.raja.usermgmt.controller.UserControllerTest], using SpringBootContextLoader
+2017-11-05 19:10:55.382  INFO 12124 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.abc.raja.usermgmt.controller.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-11-05 19:10:55.382  INFO 12124 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.abc.raja.usermgmt.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-11-05 19:10:55.404  INFO 12124 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.abc.raja.usermgmt.Application for test class com.abc.raja.usermgmt.controller.UserControllerTest
+2017-11-05 19:10:55.406  INFO 12124 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-11-05 19:10:55.408  INFO 12124 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b336cc8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2570b316, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56881196, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75c33608, org.springframework.test.context.transaction.TransactionalTestExecutionListener@25464154, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@58ebee9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@131c0b6f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7f030c72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68d8ae27, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18513c23, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6be50b35, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ce2eaa7]
+]]></system-out>
+  </testcase>
+</testsuite>
