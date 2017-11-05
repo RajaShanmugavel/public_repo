@@ -11,6 +11,7 @@ Instructions to run this project:
 
 4. Add a primary key constraint to it.
 	- alter table user_string add constraint primary key(user_id);
+	-- The MySQL constraints are set as root / mysql
 
 5. Build and Run the application using Maven
 	- mvn clean install && java -jar target\usermgmt-1.0.0.jar
